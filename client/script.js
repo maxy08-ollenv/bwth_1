@@ -1935,7 +1935,7 @@ async function clipboard(text) {
             }
 
             // Play sound effect
-            let sfx = new Audio("/announce.wav");
+            let sfx = new Audio("/sfx/announce.wav");
             sfx.volume = 0.5;
             sfx.play();
         });
@@ -1968,7 +1968,7 @@ async function clipboard(text) {
                 socket.emit("command", { command: "vote", param: "no" });
             };
             // play sound effect 
-            let sfx = new Audio("/poll.wav");
+            let sfx = new Audio("/sfx/poll.wav");
             sfx.volume = 0.5;
             sfx.play();
         });
