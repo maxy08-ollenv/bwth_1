@@ -1167,7 +1167,7 @@ async function clipboard(text) {
         target.y = Math.max(
             0,
             Math.min(
-                innerHeight - target.h - 32,
+                innerHeight - target.h - 48,
                 mouse.clientY - target.offsety,
             ),
         );
