@@ -155,6 +155,7 @@
     background-color: black;
     background-image: url("/themes/jimbwth.png"); /* /img/assets/fiveoneonetwowlp.png */
     background-size: cover;
+    background-position: center;
 }
 
 /*CHATBAR*/
