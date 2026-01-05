@@ -173,8 +173,7 @@
 
 /*CHATBAR*/
 #chatbar_cont{
-    background-color: #000000;
-    background-image: url("/img/assets/taskbar5112.png");
+    background:  #000000cf;
 }
 
 #chatbar{
