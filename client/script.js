@@ -1736,6 +1736,7 @@ async function clipboard(text) {
         $("error_room").innerHTML = logindata.roomname;
         $("room_priv").innerHTML = logindata.roompriv ? "private" : "public";
         $("login").style.display = "none";
+        $("loginbg").style.display = "none";
         $("content").style.display = "block";
         if (logindata.owner) $("room_owner").style.display = "block";
 
