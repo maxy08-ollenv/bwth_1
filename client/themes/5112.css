@@ -175,12 +175,6 @@
     background:  #000000cf;
 }
 
-#chatbar{
-    position: absolute;
-    top: 3px;
-    font-size: 15px;
-    width: calc(100% - 132px);
-}
 #tile{
     background-image: url(/img/tile.png);
     background-color: transparent;
