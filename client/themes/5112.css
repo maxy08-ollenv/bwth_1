@@ -30,7 +30,7 @@
     display: inline-block;
     width: 58px;
     height: 48px;
-    background-image: url(https://files.catbox.moe/q623r4.png);
+    background-image: url(/themes/bonzisi.png);
     background-size: 28px;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,7 +46,8 @@
     filter: invert(0.5) sepia(1) hue-rotate(212deg) saturate(10);
 }
 #send_button:active{
-    background-position: 0px -66px;
+    background-position: center;
+    filter: invert(0.5) sepia(1) hue-rotate(212deg) saturate(10);
 }
 #send_button span{
     position: absolute;
