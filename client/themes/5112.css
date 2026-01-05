@@ -28,13 +28,22 @@
 
 #send_button{
     display: inline-block;
-    width: 100px;
-    height: 32px;
-    background-image: url(/themes/5112startbutton.png);
-    background-size: 100px 98px;
+    width: 58px;
+    height: 48px;
+    background-image: url(https://files.catbox.moe/q623r4.png);
+    background-size: 28px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#chatbar{
+    position: absolute;
+    top: 10px;
+    font-size: 15px;
+    width: calc(100% - 90px);
 }
 #send_button:hover{
-    background-position: 0px -33px;
+    background-position: center;
+    filter: invert(0.5) sepia(1) hue-rotate(212deg) saturate(10);
 }
 #send_button:active{
     background-position: 0px -66px;
@@ -342,3 +351,4 @@
     width:65px;
     height:65px;
 }
+
