@@ -498,7 +498,7 @@ The Main UI is much simpler
 }
 #chatbar{
     position: absolute;
-    top: 3px;
+    top: 10px;
     font-size: 15px;
     width: calc(100% - 132px);
 }
