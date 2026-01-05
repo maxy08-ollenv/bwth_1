@@ -99,8 +99,7 @@
     text-align: right;
     padding: 7px;
     font-size: 12px;
-    position: absolute;
-    bottom: 30px;
+    position: absolute; 
     right: 0;
 }
 
