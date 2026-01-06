@@ -502,6 +502,21 @@ The Main UI is much simpler
     font-size: 15px;
     width: calc(100% - 132px);
 }
+#login_profile{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 400px;
+  background-color: white;
+  background-image: url("/img/tile.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -64px;
+  margin-top: -200px;
+  box-sizing: border-box; }
 #tile{
     position: absolute;
     right: 0px;
