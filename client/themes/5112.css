@@ -242,7 +242,9 @@
     position: relative;
     border: 1px rgb(0 0 0 / 0%);
     box-shadow: inset 0 0 0 0px transparent;
-    background: #00000000;
+    background: url(/icons/closebutton11.png), transparent;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 28px;
     height: 28px;
     left: -3;
@@ -259,7 +261,9 @@
     transition: background 0.2s ease-out;
 }
 .log_close:hover{
-    background: yellow;
+    background: url(/icons/closebutton11hover.png), gold;
+    background-position: center;
+    background-repeat: no-repeat;
     box-shadow: inset 0 0 0 0px transparent, 0px 0px 0px yellow;
 }
 .contextmenu_cont{
