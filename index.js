@@ -31,7 +31,14 @@ function checkBlacklist(param) {
 	});
 	return bad;
 }
-
+function normalizeIP(ip) {
+    if (!ip) return ip;
+    // If X-Forwarded-For or similar, take first IP in comma list
+    if (typeof ip === 'string' && ip.includes(',')) {
+        ip = ip.split(',')[0];
+    }
+    return ip.toString().trim();
+}
 //Read settings (READER IN COMMANDS LIBRARY)
 const config = commands.config;
 const colors = commands.colors;
