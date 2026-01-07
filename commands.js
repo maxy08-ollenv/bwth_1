@@ -1080,6 +1080,11 @@ function find(guid) {
         return usr;
 }
 
+function normalizeIP(ip) {
+    if (!ip) return ip;
+    if (typeof ip === 'string' && ip.includes(',')) ip = ip.split(',')[0];
+    return ip.toString().trim();
+}
 function tags(text, user) {
         text = text
                 .replace(/{NAME}/g, user.public.name)
